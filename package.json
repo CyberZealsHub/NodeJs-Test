@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal Node.js project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node --check src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
