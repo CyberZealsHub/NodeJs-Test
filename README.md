@@ -10,7 +10,7 @@ multiple supported Node.js versions.
 - `test/index.test.js` verifies the default and custom-name behavior.
 - `.github/workflows/node.js.yml` runs CI on pushes and pull requests to `main`,
   and can also be started manually. Its Node.js version matrix currently covers
-  Node.js 22 and 24, both currently supported LTS releases.
+  Node.js 18, 20, and 22.
 
 ## Run locally
 
